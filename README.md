@@ -1,11 +1,11 @@
-About amazon-braket-default-simulator
-=====================================
+About amazon-braket-default-simulator-feedstock
+===============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amazon-braket-default-simulator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aws/amazon-braket-default-simulator-python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amazon-braket-default-simulator-feedstock/blob/main/LICENSE.txt)
 
 Summary: An open source quantum circuit simulator to be run locally with the Amazon Braket SDK
 
