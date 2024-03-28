@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-default-simulator" %}
-{% set version = "1.21.0" %}
+{% set version = "1.21.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-default-simulator-{{ version }}.tar.gz
-  sha256: f4c03f602c9af5ad80ce3477e88a19974dba9fa3ff47566d93beb7d4f6bde2fd
+  sha256: 02ba41e9ccccc189fc738c0bc1cb1508511459732b8c6b49395ae41f01062f23
 
 build:
   number: 0
@@ -21,8 +21,8 @@ requirements:
     - python >=3.8
   run:
     - sympy
-    - pydantic
-    - amazon-braket-schemas >=1.20.2
+    - pydantic >2
+    - amazon-braket-schemas >=1.21.0
     - antlr4-python3-runtime ==4.9.2
     - numpy
     - opt-einsum
