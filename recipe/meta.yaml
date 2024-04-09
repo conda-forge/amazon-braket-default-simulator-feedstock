@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-default-simulator" %}
-{% set version = "1.21.2" %}
+{% set version = "1.21.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon-braket-default-simulator-{{ version }}.tar.gz
-  sha256: 02ba41e9ccccc189fc738c0bc1cb1508511459732b8c6b49395ae41f01062f23
+  sha256: 0818bc786d38713fd1ca91a7036b5beead1ddc0d37b80534a8a5c9aa0c71c909
 
 build:
   number: 0
