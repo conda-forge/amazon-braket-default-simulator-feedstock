@@ -35,7 +35,6 @@ requirements:
 test:
   imports:
     - braket
-    - braket.default_simulator
   commands:
     - pip check
   requires:
