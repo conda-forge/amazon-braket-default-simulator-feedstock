@@ -1,5 +1,6 @@
 {% set name = "amazon-braket-default-simulator" %}
-{% set version = "1.33.0" %}
+{% set version = "1.34.1" %}
+{% set python_min = "3.11" %}
 
 
 package:
@@ -8,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b70d72b9a15dac102c28af64a0f7182dd8fc855f29ff9d93ba2920a2bb4d3879
+  sha256: 137f61bdefd5507aacf49c3979ae7bbdc44dace322f224b97ab7da391cfeec17
 
 build:
   number: 0
@@ -21,6 +22,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
+    - setuptools ==81.0.0
     - numba
     - opt_einsum
     - sympy
