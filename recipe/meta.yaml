@@ -1,5 +1,5 @@
 {% set name = "amazon-braket-default-simulator" %}
-{% set version = "1.40.1.post0" %}
+{% set version = "1.40.2" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 050a4041ce871153a16a8b9e9f21dc5adbeb49d587c3757c42c782dc7305c0c3
+  sha256: bd81e56125db94f0c1a02f3d706abe2966e80c74ad942e1ff27a12612b2b29d3
 
 build:
   number: 0
